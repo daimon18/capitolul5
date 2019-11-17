@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1574019189 source:c:\users\carnita\desktop\minicalculator\main.cpp
+	<iostream>
+	"operatii.h"
+
+1574018477 c:\users\carnita\desktop\minicalculator\operatii.h
+
