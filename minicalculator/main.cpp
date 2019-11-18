@@ -9,7 +9,8 @@ using namespace std;
 int main()
 {
  meniu();
-    short i,j,k;
+    short i;
+    double j,k;
  cin>> i;
     while ((i<1) || (i>5)) {
         cout<<"introdu din nou";
@@ -23,14 +24,14 @@ int main()
     case Scadere: cout << j << " - " << k << " = " << scadere(j, k); break;
     case Inmultire: cout << j << " * " << k << " = " << inmultire(j, k); break;
     case Impartire:
-        while(k == 0) {
+        while(j == 0) {
             cout<<"Impartirea la 0 nu e posibila, introduceti un nou impartitor: ";
-            cin>>k;}
+            cin>>j;}
         cout << j << " / " << k << " = " << impartire(j, k); break;
     case Modulo:
-        while(k == 0) {
+        while(j == 0) {
             cout<<"Impartirea la 0 nu e posibila, introduceti un nou impartitor: ";
-            cin>>k;}
+            cin>>j;}
         cout << j << " % " << k << " = " << modulo(j, k); break;
     }
     cout<<endl;

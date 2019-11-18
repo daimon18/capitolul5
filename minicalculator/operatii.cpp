@@ -1,4 +1,5 @@
  #include <iostream>
+ #include "operatii.h"
 
  int adunare (int a, int b)
   {

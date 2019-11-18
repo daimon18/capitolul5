@@ -5,3 +5,13 @@
 
 1574018477 c:\users\carnita\desktop\minicalculator\operatii.h
 
+1574079978 source:c:\users\carnita\desktop\github\capitolul5\minicalculator\main.cpp
+	<iostream>
+	"operatii.h"
+
+1574079660 c:\users\carnita\desktop\github\capitolul5\minicalculator\operatii.h
+
+1574079694 source:c:\users\carnita\desktop\github\capitolul5\minicalculator\operatii.cpp
+	<iostream>
+	"operatii.h"
+

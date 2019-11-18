@@ -33,9 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
-		<Unit filename="operatii.cpp">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="operatii.cpp" />
 		<Unit filename="operatii.h" />
 		<Extensions>
 			<code_completion />
